@@ -1,0 +1,41 @@
+body{
+    background-color: #cce6ff;
+}
+#wrapper{
+    margin: 0 auto;
+    width: 940px;
+}
+header{
+    position: relative;
+    padding-bottom: 26px;
+    margin-top: 14px;
+    padding-left: 50px;
+}
+#gitTitle{
+    float: right;
+    font-size: 24px;
+    color: #9a9994;
+    position: absolute;
+    top: 11px;
+    left: 180px;
+}
+#gitText{
+    float: left;
+    width: 50%;
+    margin-bottom: 1.2em;
+    font-size: 18px;
+    line-height: 26.4px;
+}
+.blueText{
+    color:cornflowerblue;
+}
+#gitImage{
+    float: right;
+    width: 49%"
+}
+#mainWrapper{
+    height: 250px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+}

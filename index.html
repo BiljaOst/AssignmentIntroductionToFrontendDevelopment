@@ -4,12 +4,24 @@
     <title>HTML document</title>
     <meta charset="UTF-8">
     <meta name="description" content="Assignment Introduction to Frontend Development course">
-    <meta name="keywords" content="HTML,CSS">
+    <meta name="keywords" content="Git,HTML,CSS">
     <meta name="author" content="Biljana Ostojić">
+    <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <h1>Learning Git</h1>
-    <p> Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
-    <p>Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows. </p>
+    <div id="wrapper">
+        <header>
+            <img src="images/logo.png" width="110" height="46" alt="Logo">
+            <span id="gitTitle"> -- Learning <b>Git</b> --</span>
+        </header>
+        <div id="mainWrapper">
+            <div id="gitText">
+                <p>Git is a <span class="blueText">free and open source</span> distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
+                <p>Git is <span class="blueText">easy to learn</span> and has a <spanclass="blueText">tiny footprint with lightning fast performance</span>. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like <span class="blueText">cheap local branching</span>, convenient <span class="blueText">staging areas</span>, and <span class="blueText">multiple workflows</span>. </p>
+            </div>
+            <div id="gitImage">
+                <img src="images/branching-illustration.png" width="390" height="250" alt="Branching illustration">
+            </div>
+        </div>
 </body>
 </html>
